@@ -7,5 +7,5 @@ DATE=`date '+%m%d'`
 rm -rf $DST/dstbackup
 mkdir $DST/dstbackup
 cp -af $DST/MyDediServer/{Caves,Master}  $DST/dstbackup
-tar -zcvf /www/wwwroot/cheng/dst/dstbackup$1.tar.gz $/DST/dstbackup/{Caves,Master}
+tar -zcvf /www/wwwroot/cheng/dst/dstbackup$1.tar.gz $DST/dstbackup/{Caves,Master}
 #zip -qr /www/wwwroot/cheng/dst/dstbackup$DATE.zip $DST/dstbackup
